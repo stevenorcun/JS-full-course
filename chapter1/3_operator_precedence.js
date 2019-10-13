@@ -13,11 +13,11 @@ var ageMark = now - yearJohn
 var ageJohn = 35
 var average = (ageJohn + ageMark) / 2
 
-console.log(average)
+console.log(`average = ${average}`);
 
 // Multiple assignement
 // = assignment is right to left => this is why x not undifined
-var x, y
+var x, y;
 x = y = (3 + 5) * 4 - 6
 console.log(x, y)
 

@@ -1,6 +1,6 @@
 
-var fisrtName = 'Steven'
-var age = 33
+var fisrtName = 'Steven';
+var age = 33;
 
 var drink = age >= 18 ? drink = 'Beer' : drink = 'Orange Juice'
 
