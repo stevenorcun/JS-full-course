@@ -1,0 +1,19 @@
+Module Pattern
+
+	En javascript le principe de classe en Java est le concept de module.
+
+	C'est un pattern permettant l'organisation du code en module qui va encapsuler dans un fichier JS
+	des variables, methodes etc...
+
+	Ces modules pourront être utilisés par des autres fichiers JS.
+	Ce pattern permet, comme en Java, d'utiliser le concept d'encapsulation.
+
+	En effet c'est via une IIFE que ce principe est réalisable. Une IIFE permet de scoper le
+	code qui devient alor safe et private. Tous le code est scopé dans la fonction qui n'éxiste pas à 
+	l'extérieur de la fonction. Les variables et méthodes sont totalement private.
+
+		=> On peut par la suite exposer ces variable et méthdodes pour l'exterieur via le return.
+
+		=> On peut alors décider tout ce qui pourra être visible à l'exterieur  et ainsi utlisable.
+
+	Ainsi, ce pattern permet donc de respecter le concept de seprartion of concern dans la POO.

@@ -1,0 +1,23 @@
+
+	En JS, lors de l'éxécution, un context est créé et il y 3 phases :
+
+		Définition de la Variable Object pour le context.
+	
+		Création du scpope chain
+
+		creation du this
+
+
+	Il y a un context global qui est créé, l'object windows dans le cas du browser. On va y retrouver toute
+	les variables et méthodes déclarées dans ce contexte globale.
+
+		Il y a un hosting qui est fait pour ces variables et méthodes décoration (nous seront en mesure
+		d'y accéder n'importe où dans le code ce même avant d'etre initialisé => car sété à undedined).
+
+	Ensuite, pour chaque methode créer, au moment où elles seront appellées, un context sera créer et sera
+	supprimer à la fin de la fonction. Cette fonction aura son propre execution contexte, son propre hoisting
+	
+	=> Then la scope chain.
+	Le premier scope est le global scope => tout le monde y a accès, ensuite lors de l'appel d'un méthode,
+	aura son propre scope, elle à accès au variables du scope parent et peut avoir des enfants...
+	
