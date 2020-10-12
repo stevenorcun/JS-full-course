@@ -24,7 +24,7 @@ for (const key of question.keys()) {
 }
 
 for (const value of question.values()) {
-    console.log(valeur);
+    console.log(value);
   }
 
 question.forEach( (value, key) => {
